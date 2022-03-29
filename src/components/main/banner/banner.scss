@@ -1,0 +1,23 @@
+.myBanner{
+    background-color: #F6F6F6;
+    &__item{
+        h3{
+            font-size: 36px;
+        }
+        &:nth-child(2){
+            
+           > div{
+                box-shadow: 0 3px 86px rgba($color: #000000, $alpha: .19);
+           }       
+            .image-wrapper{
+                display: flex;
+                justify-content: center;
+                img{
+                    -webkit-clip-path: polygon(100% 0, 99% 71%, 27% 100%, 0 87%, 0 0);
+                    clip-path: polygon(100% 0, 99% 71%, 27% 100%, 0 87%, 0 0);
+                    max-width: 330px;
+                }
+            }
+        }
+    }
+}

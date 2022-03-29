@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    min-height: 558px;
+    position: relative;
+    &__left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+
+        .logo-wrapper{
+            align-self: flex-start;
+        }
+    }
+    &__right{
+      display: flex;
+      flex: 2 1 auto;
+        >div{ 
+            padding: 40px 0 0 40px;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 100%;
+           background-image: url('../../../../public/images/footer/footer-back.png');
+        }
+    }
+}
